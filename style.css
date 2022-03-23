@@ -1,0 +1,100 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #F8F4EC;
+}
+
+#nav-logo{
+    width: 45px;
+    height: 45px;
+    margin-left: -15px;
+}
+
+#border-nav{
+    display: block;
+	background-color: #F67280;
+	width: 100%;
+	height: 3px;
+	margin-top: -2px;
+}
+
+#img-tag{
+    display: block;
+    margin-top: -18px;
+    width: 100%;
+    /* height: 550px; */
+}
+
+#head-div{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#header-text{
+    text-align: center;
+	font-size: small;
+}
+
+#details-text{
+    text-align: center;
+    font-size: small;
+}
+
+#special{
+    text-align: center;
+    background-image: linear-gradient(to top left, #355c7d, #6c5b7b);
+}
+
+/* details */
+#hr-bio{
+	display: block;
+	background-color: black;
+	width: 15%;
+	margin-top: 50px;
+	align-content: center;
+}
+
+#coding{
+	margin-bottom: 20px;
+	text-align: justify;
+	text-align: center;
+	display: table-cell;
+	/* margin-left: -700px; */
+
+}
+
+#code-text{
+	font-size: 12px;
+}
+
+#design{
+	margin-bottom: 20px;
+	text-align: justify;
+	text-align: center;
+	display: table-cell;
+	/* margin-left: -700px; */
+}
+
+#design-text{
+	font-size: 12px;
+}
+
+#database{
+	margin-bottom: 20px;
+	text-align: justify;
+	text-align: center;
+	display: table-cell;
+}
+
+#database-text{
+	font-size: 12px;
+}
+
+
+@media screen and (max-width: 100%){
+    #img-tag{
+        width: auto;
+    }
+}
