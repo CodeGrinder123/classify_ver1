@@ -175,8 +175,44 @@ body{
 	/* margin-top: -100px; */
 }
 
+/* quotes */
+#quotes{
+    text-align: center;
+    background-image: url("images/quotes-bg.png"), linear-gradient(to top left, #355c7d, #6c5b7b);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#hr-quotes{
+	display: block;
+	background-color: #F67280;
+	width: 15%;
+	margin-top: 20px;
+	align-content: center;
+	margin-bottom: 30px;
+}
+
+#quotes-text{
+    text-align: left;
+	font-size: small;
+}
+
+#quote-name{
+	/* margin-left: 80px; */
+	text-align: center;
+}
+
+#ceo-img{
+	width: 15%;
+	border-radius: 50%;
+}
+
+#email, #email-text{
+	color: white;
+}
+
 @media screen and (max-width: 100%){
-    #img-tag, #learn-more{
+    #img-tag, #learn-more, #socials{
         width: auto;
     }
 }
