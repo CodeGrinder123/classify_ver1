@@ -157,6 +157,24 @@ body{
 	margin-left: 25px;
 }
 
+/* details-3 */
+#details-3-text{
+	text-align: left;
+	font-size: 38px;
+}
+
+
+#details-3-img{
+	width: 50%;
+	/* margin-top: -100px; */
+}
+
+/* details-4 */
+#details-4-img{
+	width: 60%;
+	/* margin-top: -100px; */
+}
+
 @media screen and (max-width: 100%){
     #img-tag, #learn-more{
         width: auto;
