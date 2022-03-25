@@ -211,6 +211,54 @@ body{
 	color: white;
 }
 
+/* login */
+#login{
+    text-align: center;
+    background-image: linear-gradient(to top left, #355c7d, #6c5b7b);
+}
+
+#hr-login{
+	display: block;
+	background-color: #F67280;
+	width: 15%;
+	margin-top: 20px;
+	align-content: center;
+	margin-bottom: 30px;
+}
+
+#login-container{
+	align-items: center;
+	margin: auto;
+	width: 80%;
+	max-width: fit-content;
+	border-radius: 25px;
+    text-align: center;
+    /* background-image: linear-gradient(to top left, #355c7d, #6c5b7b); */
+}
+
+#login-img{
+	width: 10%;
+}
+
+.form-rounded{
+	border-radius: 1rem;
+	width: 85%;
+	/* text-align: center; */
+}
+
+input{
+	/* text-align: center; */
+	margin: auto;
+}
+
+#footer-text{
+	font-size: 15px;
+}
+
+#email-login, #email-text-login{
+	color: black;
+}
+
 @media screen and (max-width: 100%){
     #img-tag, #learn-more, #socials{
         width: auto;
