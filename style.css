@@ -211,6 +211,11 @@ body{
 	color: white;
 }
 
+/* index-footer */
+#index-footer{
+	margin-bottom: auto;
+}
+
 /* login */
 #login{
     text-align: center;
@@ -253,10 +258,16 @@ input{
 
 #footer-text{
 	font-size: 15px;
+	color: rgba(255, 255, 255, 0.342);
 }
 
 #email-login, #email-text-login{
 	color: black;
+}
+
+#login-footer{
+    text-align: center;
+    background-image: linear-gradient(to top left, #355c7d, #6c5b7b);
 }
 
 @media screen and (max-width: 100%){
