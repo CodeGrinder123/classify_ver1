@@ -271,6 +271,15 @@ input{
     background-image: linear-gradient(to top left, #355c7d, #6c5b7b);
 }
 
+#signup-google{
+	border-radius: 25px;
+	width: auto;
+}
+
+form{
+	width: auto;
+}
+
 @media screen and (max-width: 100%){
     #img-tag, #learn-more, #socials{
         width: auto;
